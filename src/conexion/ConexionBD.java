@@ -3,10 +3,10 @@ package conexion;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
-
+// proyecto acorde especificación
 public class ConexionBD {
 	
-	private static String database="biblioteca";
+	private static String database="biblioteca"; // bbdd correcta
 	private static String usuario="root";
 	private static String contrasena="";
 	private static String url="jdbc:mariadb://localhost/" + database; 
